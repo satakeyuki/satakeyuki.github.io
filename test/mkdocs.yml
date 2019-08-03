@@ -1,0 +1,26 @@
+site_name: Yuki Satake
+site_url: https://satakeyuki.github.io/
+site_author: Yuki Satake
+copyright: © 2019 Yuki Satake
+
+theme:
+  name: 'bootstrap'
+
+extra_css:
+    # - "https://fonts.googleapis.com/earlyaccess/notosansjp.css"
+    # - "https://fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "css/custom.css"
+
+nav:
+  - 日本語: index.md
+  - English: eng.md
+  - memo: memo.md
+
+
+  
+# markdown_extensions:
+#     - mdx_math
+#         enable_dollar_delimiter: true
+
+# extra_javascript: 
+#   - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
