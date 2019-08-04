@@ -26,6 +26,11 @@ a:hover {
     color: #FFC107;
 }
 
+a:active {
+    color: #FFC107;
+}
+
+
 /* h1 {
     color: DarkSlateGray;
 } */
