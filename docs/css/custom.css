@@ -1,0 +1,34 @@
+body {
+    font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+    color: DarkSlateGray;
+}
+
+/* .navbar{
+    background: #FFC107;
+} */
+
+/* .navbar-nav :hover{
+    background: #FFA000;
+} */
+
+/* .active{
+    color: white;
+} */
+h1 {
+    color: DimGray;
+}
+
+a {
+    color: #26C6DA;
+}
+
+a:hover {
+    color: #FFC107;
+}
+
+/* h1 {
+    color: DarkSlateGray;
+} */
+footer {
+    text-align: center;
+}
