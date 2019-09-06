@@ -4,7 +4,7 @@ body {
 }
 
 /* .navbar{
-    background: #FFC107;
+    background: #26C6DA;
 } */
 
 /* .navbar-nav :hover{
@@ -21,6 +21,10 @@ h1 {
 a {
     color: #26C6DA;
 }
+
+/* a {
+    color: #CCA11F;
+} */
 
 a:hover {
     color: #FFC107;
