@@ -3,6 +3,7 @@ body {
     color: DarkSlateGray;
 }
 
+
 /* .navbar{
     background: #26C6DA;
 } */
@@ -14,9 +15,10 @@ body {
 /* .active{
     color: white;
 } */
-h1 {
+
+/* h1 {
     color: DimGray;
-}
+} */
 
 a {
     color: #26C6DA;
@@ -34,6 +36,15 @@ a:active {
     color: #FFC107;
 }
 
+/* a.navbar-brand {
+    font-weight: bold;
+} */
+
+
+/* .navbar-nav {
+    color: #26C6DA;
+    font-weight: bold;
+} */
 
 /* h1 {
     color: DarkSlateGray;
