@@ -1,54 +1,125 @@
-body {
-    font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
-    color: DarkSlateGray;
+/* <style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Raleway&display=swap');
+</style> */
+
+body{
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.bold_ja{
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 700;
+}
+.bold_en{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 500;
 }
 
 
-/* .navbar{
-    background: #26C6DA;
-} */
-
-/* .navbar-nav :hover{
-    background: #FFA000;
-} */
-
-/* .active{
+/* navbar テキストカラー */
+.navbar-default .navbar-nav > li > a {
     color: white;
-} */
-
-/* h1 {
-    color: DimGray;
-} */
-
-a {
-    color: #26C6DA;
+    font-weight: bold;
 }
 
-/* a {
-    color: #CCA11F;
-} */
+/* navbar 全体の背景色とボーダーカラー */
+.navbar-default {
+    background-color: #0F4C81;
+}
+
+/* navbar hover,focus時のテキストカラー */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #CFAD4E;
+    background-color: transparent;
+}
+
+.navbar-nav :hover{
+    background: rgb(14, 67, 114);
+}
+
+
+/* navbar brandの色 */
+.navbar-default .navbar-brand {
+    color: #CFAD4E;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #CFAD4E;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/* navbar active設定時のカラー */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #CFAD4E;
+    background-color: rgb(14, 67, 114);
+    font-weight: bold;
+}
+
+.navbar-default .navbar-brand a:hover {
+    color: #CFAD4E;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.bs-sidenav {
+    font-size: larger;
+}
+
+
+body {
+    /* font-size: 180%; */
+    color: #383838;
+}
+
+/* ----- リンク ----- */
+a {
+    color: #0F4C81;
+}
 
 a:hover {
-    color: #FFC107;
+    color: #CFAD4E;
 }
 
 a:active {
-    color: #FFC107;
+    color: #CFAD4E;
 }
 
-/* a.navbar-brand {
-    font-weight: bold;
-} */
 
-
-/* .navbar-nav {
-    color: #26C6DA;
-    font-weight: bold;
-} */
-
-/* h1 {
-    color: DarkSlateGray;
-} */
 footer {
     text-align: center;
 }
+
+
+
+/* navbar ハンバーガー四角枠 */
+.navbar-default .navbar-toggle {
+border-color: white;
+}
+/* navbar ハンバーガー三本線 */
+.navbar-default .navbar-toggle .icon-bar {
+background-color: white;
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の背景色 */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+background-color: #0F4C81;
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の四角枠 */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+border-color: #CFAD4E;
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の三本線 */
+.navbar-default .navbar-toggle:focus > .icon-bar,
+.navbar-default .navbar-toggle:hover > .icon-bar {
+background-color: #CFAD4E;
+}
+
