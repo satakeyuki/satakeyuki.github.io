@@ -1,8 +1,7 @@
-/* <style>
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900|Raleway&display=swap');
-</style> */
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Noto+Sans+JP:400,700&display=swap&subset=japanese'); */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700,700i|Noto+Sans+JP:400,700&display=swap&subset=japanese');
 
-body{
+/* body{
     font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
@@ -13,8 +12,20 @@ body{
 .bold_en{
     font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 500;
+} */
+
+body{
+    font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
 
+.bold_ja{
+  font-family: "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-weight: 700;
+}
+.bold_en{
+    font-family: "Montserrat", "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 700;
+}
 
 /* navbar テキストカラー */
 .navbar-default .navbar-nav > li > a {
@@ -24,29 +35,29 @@ body{
 
 /* navbar 全体の背景色とボーダーカラー */
 .navbar-default {
-    background-color: #0F4C81;
+    background-color: #00BCD4;
 }
 
 /* navbar hover,focus時のテキストカラー */
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #CFAD4E;
+    color: #FDD835;
     background-color: transparent;
 }
 
 .navbar-nav :hover{
-    background: rgb(14, 67, 114);
+    background: #4DD0E1;
 }
 
 
 /* navbar brandの色 */
 .navbar-default .navbar-brand {
-    color: #CFAD4E;
+    color: white;
     font-weight: bold;
 }
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-    color: #CFAD4E;
+    color: #FDD835;
     font-weight: bold;
     background-color: transparent;
 }
@@ -55,13 +66,13 @@ body{
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: #CFAD4E;
-    background-color: rgb(14, 67, 114);
+    color: #FDD835;
+    background-color: #4DD0E1;
     font-weight: bold;
 }
 
 .navbar-default .navbar-brand a:hover {
-    color: #CFAD4E;
+    color: #FDD835;
     font-weight: bold;
 }
 
@@ -76,20 +87,20 @@ body{
 
 body {
     /* font-size: 180%; */
-    color: #383838;
+    color: #363838;
 }
 
 /* ----- リンク ----- */
 a {
-    color: #0F4C81;
+    color: #00BCD4;
 }
 
 a:hover {
-    color: #CFAD4E;
+    color: #FDD835;
 }
 
 a:active {
-    color: #CFAD4E;
+    color: #FDD835;
 }
 
 
@@ -97,6 +108,9 @@ footer {
     text-align: center;
 }
 
+h1 {
+    font-weight: 900;
+  }
 
 
 /* navbar ハンバーガー四角枠 */
@@ -110,16 +124,16 @@ background-color: white;
 /* navbar ハンバーガーボタン,タップとホバーした時の背景色 */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-background-color: #0F4C81;
+background-color: #00BCD4;
 }
 /* navbar ハンバーガーボタン,タップとホバーした時の四角枠 */
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-border-color: #CFAD4E;
+border-color: #FDD835;
 }
 /* navbar ハンバーガーボタン,タップとホバーした時の三本線 */
 .navbar-default .navbar-toggle:focus > .icon-bar,
 .navbar-default .navbar-toggle:hover > .icon-bar {
-background-color: #CFAD4E;
+background-color: #FDD835;
 }
 
