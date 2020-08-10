@@ -14,6 +14,32 @@
     font-weight: 500;
 } */
 
+/* 追記 */
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus{
+    color: #FDD835;
+}
+
+.bg-primary {
+    background-color: #00BCD4 !important;
+    background-image: none !important;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #FDD835;
+    background-color: transparent;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+
 body{
     font-family: "Montserrat", "Noto Sans JP", sans-serif;
 }
@@ -34,16 +60,16 @@ body{
 }
 
 /* navbar 全体の背景色とボーダーカラー */
-.navbar-default {
+/* .navbar-default {
     background-color: #00BCD4;
-}
+} */
 
 /* navbar hover,focus時のテキストカラー */
-.navbar-default .navbar-nav > li > a:hover,
+/* .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #FDD835;
     background-color: transparent;
-}
+} */
 
 .navbar-nav :hover{
     background: #4DD0E1;
@@ -86,7 +112,6 @@ body{
 
 
 body {
-    /* font-size: 180%; */
     color: #363838;
 }
 
@@ -94,11 +119,9 @@ body {
 a {
     color: #00BCD4;
 }
-
 a:hover {
     color: #FDD835;
 }
-
 a:active {
     color: #FDD835;
 }
