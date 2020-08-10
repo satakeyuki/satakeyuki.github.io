@@ -17,30 +17,30 @@ body{
 /* ナビゲーション */
 /* 上の帯の色 */
 .bg-primary {
-    background-color: rgb(255, 225, 26) !important;
+    background-color: rgb(0,92,175) !important;
     background-image: none !important;
 }
 
 /* ブランド名 */
 .navbar-brand {
     font-weight: 700;
-    color: rgb(42, 44, 43) !important;
+    /* color: rgb(42, 44, 43) !important; */
 }
 
 /* ブランド名（hover時） */
 .navbar-brand:hover{
     font-weight: 700;
-    color: #74B3CE !important;
+    color: #ECDF2B !important;
 }
 
 .navbar-brand:focus{
     font-weight: 700;
-    color: #74B3CE !important;
+    color: #ECDF2B !important;
 }
 
 /*  */
 .navbar .navbar-nav .nav-link{
-    color: rgb(42, 44, 43);
+    color: #fbfbf6;
     font-weight: 700;
 }
 
@@ -49,21 +49,21 @@ body{
 
 /* nav-item activeの文字色 */
 .navbar .navbar-nav .active > .nav-link {
-    color: #74B3CE;
+    color: #ECDF2B;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-    color: #74B3CE;
+    color: #ECDF2B;
 }
 
 /* nav-item:focus、nav-item:hoverの文字色 */
 .navbar .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #74B3CE;
+    color: #ECDF2B;
 }
 
 /* nav-item:activeの文字色 */
 .navbar .navbar-nav .nav-link:active {
-    color: #74B3CE;
+    color: #ECDF2B;
 }
 
 body {
@@ -73,13 +73,13 @@ body {
 
 /* ----- リンク ----- */
 a {
-    color: #74B3CE;
+    color: rgb(0,92,175);
 }
 a:hover {
-    color: #FDD835;
+    color: #ECDF2B;
 }
 a:active {
-    color: #FDD835;
+    color: #ECDF2B;
 }
 
 
@@ -90,9 +90,15 @@ h1 {
 
 /* 箇条書き　行間 */
 ul li {
-    /* padding-top:10px;  */
-    padding-bottom:10px;
+    padding-top:5px; 
+    padding-bottom:5px;
 }
+
+.navbar-collapse li {
+    padding-top:0px; 
+    padding-bottom:0px;
+}
+
 
 /* 追記 */
 /* .navbar-brand:hover,
@@ -103,23 +109,23 @@ ul li {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #FDD835;
+    color: #ECDF2B;
     background-color: transparent;
 }
 
 /* 表 */
 table {
     border-collapse: collapse;
-    border: solid 2px #d8c985;
+    border: solid 2px #ECDF2B;
 }
 table th, table td {
-    border: dashed 1px #d8c985;
-    background-color: white !important;
+    border: dashed 1px #ECDF2B;
+    background-color: #fbfbf6 !important;
 }
 
 hr {
     height: 1px;
-    background-color: #d8c985;
+    background-color: rgb(0,92,175);
     border: none;
 }
 
@@ -167,12 +173,18 @@ hr {
 
 /* navbar ハンバーガー四角枠 */
 .navbar-toggler {
-    border-color: #74B3CE !important;
-    border-width: 2px;
+    border-color: #fbfbf6 !important;
+    border-width: 1px;
 }
+
+.navbar-toggler :active {
+    border-color: #ECDF2B !important;
+    border-width: 1px;
+}
+
 /* navbar ハンバーガー三本線 */
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(116, 179, 206, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(251, 251, 246, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     /* background-color: #d8c985; */
 }
 
