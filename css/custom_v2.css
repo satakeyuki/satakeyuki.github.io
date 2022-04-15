@@ -9,7 +9,7 @@ body{
 }
 
 .bold_en{
-    font-family: "Helvetica", "Raleway", "Noto Sans JP", sans-serif;
+    font-family: "Helvetica", "Noto Sans JP", "Raleway", sans-serif;
     font-weight: 700;
 }
 
@@ -88,7 +88,7 @@ a:active {
 
 
 h1 {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* 箇条書き　行間 */
