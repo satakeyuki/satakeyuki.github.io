@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Noto+Sans+JP:400,700&display=swap&subset=japanese'); */
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700,700i|Noto+Sans+JP:400,700&display=swap&subset=japanese'); */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:500,500i,700,700i|Noto+Sans+JP:400,700&display=swap&subset=japanese'); */
 
 :root {
     --md-primary-fg-color: #23651C;
@@ -12,146 +11,18 @@
     --md-admonition-icon--member: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 0a80 80 0 1 1 0 160A80 80 0 1 1 144 0zM512 0a80 80 0 1 1 0 160A80 80 0 1 1 512 0zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM224 224a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"/></svg>'); */
 }
 
-/* --- 学歴 --- */
-.md-typeset .admonition.education,
-.md-typeset details.education {
-  border-color: #23651C;
-}
-.md-typeset .education > .admonition-title,
-.md-typeset .education > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  padding-left: 50px;
-}
-.md-typeset .education > .admonition-title::before,
-.md-typeset .education > summary::before {
-  background-color: #23651C;
-  height: 30px;
-  width: 30px;
-  -webkit-mask-image: var(--md-admonition-icon--education);
-          mask-image: var(--md-admonition-icon--education);
-}
-.md-typeset .education {
-    font-size: large;
-}
-.md-typeset .education ul li {
-    margin-left: 50px;
-}
-
-/* --- 職歴 --- */
-.md-typeset .admonition.employment,
-.md-typeset details.employment {
-  border-color: #23651C;
-}
-.md-typeset .employment > .admonition-title,
-.md-typeset .employment > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  padding-left: 50px;
-}
-.md-typeset .employment > .admonition-title::before,
-.md-typeset .employment > summary::before {
-  background-color: #23651C;
-  /* margin: 5px; */
-  height: 25px;
-  width: 25px;
-  -webkit-mask-image: var(--md-admonition-icon--employment);
-          mask-image: var(--md-admonition-icon--employment);
-}
-.md-typeset .employment {
-    font-size: large;
-}
-.md-typeset .employment ul li {
-    margin-left: 50px;
-}
-
-/* --- 研究助成 --- */
-.md-typeset .admonition.grants,
-.md-typeset details.grants {
-  border-color: #23651C;
-}
-.md-typeset .grants > .admonition-title,
-.md-typeset .grants > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  padding-left: 50px;
-}
-.md-typeset .grants > .admonition-title::before,
-.md-typeset .grants > summary::before {
-  background-color: #23651C;
-  /* margin: 5px; */
-  height: 25px;
-  width: 25px;
-  -webkit-mask-image: var(--md-admonition-icon--grants);
-          mask-image: var(--md-admonition-icon--grants);
-}
-.md-typeset .grants {
-    font-size: large;
-}
-.md-typeset .grants ul li {
-    margin-left: 50px;
-}
-
-/* --- 受賞 --- */
-.md-typeset .admonition.awards,
-.md-typeset details.awards {
-  border-color: #23651C;
-}
-.md-typeset .awards > .admonition-title,
-.md-typeset .awards > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  padding-left: 50px;
-}
-.md-typeset .awards > .admonition-title::before,
-.md-typeset .awards > summary::before {
-  background-color: #23651C;
-  height: 30px;
-  width: 30px;
-  -webkit-mask-image: var(--md-admonition-icon--awards);
-          mask-image: var(--md-admonition-icon--awards);
-}
-.md-typeset .awards {
-    font-size: large;
-}
-.md-typeset .awards ul li {
-    margin-left: 50px;
-}
-
-/* --- 所属学会 --- */
-.md-typeset .admonition.member,
-.md-typeset details.member {
-  border-color: #23651C;
-}
-.md-typeset .member > .admonition-title,
-.md-typeset .member > summary {
-  background-color: rgba(43, 155, 70, 0.1);
-  padding-left: 50px;
-}
-.md-typeset .member > .admonition-title::before,
-.md-typeset .member > summary::before {
-  background-color: #23651C;
-  height: 30px;
-  width: 30px;
-  -webkit-mask-image: var(--md-admonition-icon--member);
-          mask-image: var(--md-admonition-icon--member);
-}
-.md-typeset .member {
-    font-size: large;
-}
-.md-typeset .member ul li {
-    margin-left: 50px;
-}
-
-/* --- 本文 --- */
 body{
-    font-family: "Raleway", "游ゴシック", YuGothic, "游ゴシック体", "Yu Gothic", sans-serif;
+    font-family: "Raleway", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 400;
 }
 
 .bold_en{
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 700;
 }
 
 .bold_ja{
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
   font-weight: 700;
 }
 
@@ -162,6 +33,8 @@ h1 {
 }
 h2 {
     margin-bottom: 0.1em !important;
+    font-weight: 700 !important;
+    font-size: larger !important;
 }
 
 /* --- 箇条書き --- */
