@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>https://satakeyuki.github.io/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/"/>
@@ -10,7 +10,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/cv/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/cv/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/cv/"/>
@@ -18,7 +18,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/gallery/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/gallery/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/gallery/"/>
@@ -26,7 +26,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/lin/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/lin/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/lin/"/>
@@ -34,7 +34,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/others/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/others/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/others/"/>
@@ -42,7 +42,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/publications/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/publications/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/publications/"/>
@@ -50,7 +50,7 @@
     </url>
     <url>
          <loc>https://satakeyuki.github.io/talks/</loc>
-         <lastmod>2023-07-17</lastmod>
+         <lastmod>2023-09-20</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="ja" href="https://satakeyuki.github.io/ja/talks/"/>
          <xhtml:link rel="alternate" hreflang="en" href="https://satakeyuki.github.io/en/talks/"/>
