@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 /* --- 箇条書き --- */
