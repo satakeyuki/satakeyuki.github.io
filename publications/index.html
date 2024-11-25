@@ -225,11 +225,39 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<span class="md-ellipsis">
+    論文
+  </span>
+<span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
 <span class="md-ellipsis">
     論文
   </span>
 </a>
+<nav aria-label="目次" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      投稿中
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      査読付き論文
+    </span>
+</a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../talks/">
@@ -268,6 +296,26 @@
 <div class="md-sidebar__scrollwrap">
 <div class="md-sidebar__inner">
 <nav aria-label="目次" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_2">
+<span class="md-ellipsis">
+      投稿中
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#_3">
+<span class="md-ellipsis">
+      査読付き論文
+    </span>
+</a>
+</li>
+</ul>
 </nav>
 </div>
 </div>
@@ -275,25 +323,33 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="_1">論文</h1>
+<h2 id="_2">投稿中</h2>
+<ol>
+<li>Yuya Kudo, <ins>Yuki Satake</ins>, Takeshi Fukaya, and Takeshi Iwashita,<br/>
+<strong>Condition number estimation in a solution process of a large sparse symmetric linear system</strong>,<br/>
+  submitted.</li>
+</ol>
+<h2 id="_3">査読付き論文</h2>
 <ol>
 <li>
-<p>Yuki Satake, Tomohiro Sogabe, Tomoya Kemmochi, and Shao-Liang Zhang,<br/>
+<p><ins>Yuki Satake</ins>, Tomohiro Sogabe, Tomoya Kemmochi, and Shao-Liang Zhang,<br/>
 <strong>Matrix equation representation of the convolution equation and its unique solvability</strong>,<br/>
-Special Matrices, accepted.<br/>
-<a class="md-button" href="https://arxiv.org/abs/2306.15359">arXiv</a></p>
+  Special Matrices, 12(1) (2024), pp.20240001.<br/>
+<a class="md-button" href="https://doi.org/10.1515/spma-2024-0001">Journal</a>
+<a class="md-button" href="https://arxiv.org/abs/2306.15359">preprint</a></p>
 </li>
 <li>
-<p>Yuki Satake, Tomohiro Sogabe, Tomoya Kemmochi, and Shao-Liang Zhang,<br/>
+<p><ins>Yuki Satake</ins>, Tomohiro Sogabe, Tomoya Kemmochi, and Shao-Liang Zhang,<br/>
 <strong>On a transformation of the ∗-congruence Sylvester equation for the least squares optimization</strong>,<br/>
-Optim. Methods Softw., 35(5) (2020), pp. 974-981.<br/>
+  Optim. Methods Softw., 35(5) (2020), pp. 974-981.<br/>
 <a class="md-button" href="https://www.tandfonline.com/doi/full/10.1080/10556788.2020.1734004">Journal</a></p>
 </li>
 <li>
-<p>Yuki Satake, Masaya Oozawa, Tomohiro Sogabe, Yuto Miyatake, Tomoya Kemmochi, and Shao-Liang Zhang,<br/>
+<p><ins>Yuki Satake</ins>, Masaya Oozawa, Tomohiro Sogabe, Yuto Miyatake, Tomoya Kemmochi, and Shao-Liang Zhang, <br/>
 <strong>Relation between the T-congruence Sylvester equation and the generalized Sylvester equation</strong>,<br/>
-Appl. Math. Lett., 96 (2019), pp.7-13.<br/>
+  Appl. Math. Lett., 96 (2019), pp.7-13.<br/>
 <a class="md-button" href="https://www.sciencedirect.com/science/article/pii/S0893965919301533?via%3Dihub">Journal</a>
-<a class="md-button" href="https://arxiv.org/abs/1903.05360">arXiv</a></p>
+<a class="md-button" href="https://arxiv.org/abs/1903.05360">preprint</a></p>
 </li>
 </ol>
 <aside class="md-source-file">
@@ -301,7 +357,7 @@ Appl. Math. Lett., 96 (2019), pp.7-13.<br/>
 <span class="md-icon" title="最終更新日">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
 </span>
-<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年4月1日</span>
+<span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">2024年11月25日</span>
 </span>
 </aside>
 </article>
