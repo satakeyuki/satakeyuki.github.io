@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:400,500,700|Noto+Sans+JP:400,700&display=swap&subset=japanese');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@100;200;300;400;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap');
 
+/* --- Theme color --- */
 :root {
     --md-primary-fg-color: #23651C;
     --md-accent-fg-color: #FBC914;
@@ -18,10 +19,12 @@ body{
 }
 
 p{
-    font-size: large;
+    font-size: medium;
     margin-top: 0em !important;
 }
 
+
+/* --- bold fonts --- */
 .bold_ja{
     font-family: "Zen Kaku Gothic New", "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 700;
@@ -31,13 +34,14 @@ p{
     font-family: "Raleway", "Zen Kaku Gothic New", "Inter", "Noto Sans JP", "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     font-weight: 700;
 }
-
-/* 見出し設定 */
+/* --- bold fonts --- */
+/* --- headline --- */
 h1 {
     color: black !important;
     font-weight: 700 !important;
     position: relative;
     padding: 0.1em 0em;
+    font-size: x-large !important;
 }
 
 h1:after {
@@ -51,7 +55,7 @@ h1:after {
 h2 {
     margin-bottom: 0.3em !important;
     font-weight: 700 !important;
-    font-size: x-large !important;
+    font-size: large !important;
     padding-bottom:5px;
     border-bottom: solid 1px #dddeee;
     position: relative;
@@ -71,25 +75,33 @@ h3 {
     margin-top: 0.3em !important;
     margin-bottom: 0em !important;
     font-weight: 700 !important;
-    font-size: large !important;
+    font-size: medium !important;
     /* padding-bottom: 5px; */
 }
+/* --- headline --- */
 
-a {
+/* --- link --- */
+md-tabs__list {
+    margin: 0px !important;
+}
+a.md-tabs__link {
     font-weight: 700 !important;
 }
 
-/* --- 箇条書き --- */
+/* --- lists --- */
 ul,ol {
-    font-size: large !important;
-    margin-top: 0em !important;
-    margin-bottom: 0.4em !important;
+    font-size: medium !important;
+    margin-top: 0em !important;;
 }
 
 
+ul li {
+    margin-bottom: 0em !important;
+}
+
 ol li {
     margin-top: 0em !important; 
-    /* margin-bottom:0.5em !important; */
+    margin-bottom: 0.8em !important;
 }
 
 /* ２段目 */
@@ -101,11 +113,12 @@ ul > li > ul {
 ul > li > ul > li > ul {
     list-style-type: square !important;
 }
+/* --- lists --- */
 
 /* --- ボタンのカスタマイズ --- */
 .md-button {
-    font-size: small;
-    padding: 0.1em 0.2em !important;
+    font-size: x-small;
+    padding: 0.05em 0.2em !important;
     border-width: 1px !important;
     /* position: relative; */
     vertical-align: top;
@@ -113,7 +126,7 @@ ul > li > ul > li > ul {
 
 /* --- Webタイトル --- */
 .md-ellipsis {
-    font-weight: 900;
+    font-weight: 700;
 }
 
 /* --- tabsカスタマイズ --- */
@@ -131,7 +144,7 @@ ul > li > ul > li > ul {
 .invited {
     color: #E16B8C;
     border: solid 1px;
-    font-size: small;
+    font-size: x-small !important;
     padding: 0.1em 0.2em !important;
     border-width: 1px !important;
     border-radius: 2px;/*角の丸み*/
@@ -141,7 +154,7 @@ ul > li > ul > li > ul {
 .award {
     color: #FFB11B;
     border: solid 1px;
-    font-size: small;
+    font-size: x-small;
     padding: 0.1em 0.2em !important;
     border-width: 1px !important;
     border-radius: 2px;/*角の丸み*/
@@ -151,7 +164,7 @@ ul > li > ul > li > ul {
 .others {
     color: #005CAF;
     border: solid 1px;
-    font-size: small;
+    font-size: x-small;
     padding: 0.1em 0.2em !important;
     border-width: 1px !important;
     border-radius: 2px;/*角の丸み*/
@@ -173,3 +186,4 @@ ul > li > ul > li > ul {
     border: solid 1px #23651C;/*線*/
     border-radius: 3px;/*角の丸み*/
 }
+
